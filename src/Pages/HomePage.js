@@ -3,6 +3,7 @@ import Navber from '../Components/Sheard/Navber/Navber'
 import TopNavber from '../Components/Sheard/Navber/TopNavber'
 import WhatsappIcon from '../Components/PageIcon/WhatsappIcon'
 import Footer from '../Components/Sheard/Footer/Footer'
+import PremumKatan from '../Components/PremiumKatan/PremumKatan'
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
       <TopNavber />
       <Navber />
       <WhatsappIcon />
-      <div className="min-h-[70vh]"></div>
+      <PremumKatan />
       <Footer />
     </div>
   )
