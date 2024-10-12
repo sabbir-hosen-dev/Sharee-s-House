@@ -9,8 +9,8 @@ function Navbar() {
   return (
     <nav className="container  px-5 lg:px-20 mx-auto flex justify-between items-center py-2">
       <div className="logo flex items-center gap-2">
-          <img className="w-12" src={logo} alt="" />
-        <h2 className="text-heading font-bold text-gray text-2xl">SHAREE'<span className="text-primary">S</span> HOUSE
+          <img className="md:w-12 w-9" src={logo} alt="" />
+        <h2 className="text-heading font-bold text-gray text-sm md:text-2xl">SHAREE'<span className="text-primary">S</span> HOUSE
         </h2>
       </div>
       <ul className="hidden lg:flex gap-5 items-center">
