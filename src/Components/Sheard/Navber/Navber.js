@@ -27,13 +27,13 @@ function Navbar() {
           
           
           <div className=" relative">
-          <AiOutlineHeart className="cursor-pointer w-6 h-6 text-gray hover:text-text transition-all duration-300" />
+          <AiOutlineHeart  tabindex="0" role="button"  className="cursor-pointer w-6 h-6 text-gray hover:text-text transition-all duration-300" />
           <span className="absolute badge badge-xs bg-primary -top-2 py-2 text-white -right-2">0</span>
           </div>
 
 
         <div className="dropdown"> 
-            <BiMenu className="bg-green-50 w-8 h-8 rounded-full cursor-pointer text-gray hover:text-text p-[2px]  duration-300 ease-in hover:bg-primary   lg:hidden" />
+            <BiMenu  className="bg-green-50 w-8 h-8 rounded-full cursor-pointer text-gray hover:text-text p-[2px]  duration-300 ease-in hover:bg-primary   lg:hidden" />
  
 
           <ul
