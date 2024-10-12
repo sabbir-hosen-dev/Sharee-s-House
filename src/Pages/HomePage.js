@@ -1,9 +1,10 @@
 import React from 'react'
+import Navber from '../Components/Sheard/Navber/Navber'
 
 function Home() {
   return (
-    <div>
-      <h1>Hi this is a react page</h1>
+    <div className=''>
+      <Navber />
     </div>
   )
 }
