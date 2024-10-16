@@ -5,13 +5,14 @@ import WhatsappIcon from '../Components/PageIcon/WhatsappIcon'
 import Footer from '../Components/Sheard/Footer/Footer'
 import PremumKatan from '../Components/PremiumKatan/PremumKatan'
 
-function Home() {
+function Home({stateFunction}) {
+  const {love,setLove,shop,setShop} = stateFunction;
   return (
     <div className=' '>
-      <TopNavber />
-      <Navber />
+      <TopNavber  />
+      <Navber data={{love,shop}}  />
       <WhatsappIcon />
-      <PremumKatan />
+      <PremumKatan ftion={{setLove,setShop,love,shop}} />
       <Footer />
     </div>
   )

@@ -3,7 +3,7 @@ import data from "../../data/PremiumKatanData"
 import Card from '../Sheard/Card/Card'
 
 
-function PremumKatan() {
+function PremumKatan({ftion}) {
 
   return (
     <section className='container m-auto px-5 py-10'>
@@ -15,7 +15,7 @@ function PremumKatan() {
 
       <div className="grid gap-2 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:grid-cols-5 ">
         {
-          data.map(data => <Card key={data.id} data={data} />)
+          data.map(data => <Card ftion={ftion} key={data.id} data={data} />)
         }
       </div>
     </section>

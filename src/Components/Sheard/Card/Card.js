@@ -1,27 +1,41 @@
-import { AiOutlineHeart } from "react-icons/ai"; 
-import React from 'react'
+import { FiShoppingCart } from "react-icons/fi";
+import { AiOutlineHeart } from "react-icons/ai";
+import React from "react";
+import { Link } from "react-router-dom";
 
-function Card({data}) {
-
-  const {image,title,desc,price} = data
-
+function Card({ data, ftion }) {
+  const { image, title, price, id } = data;
+  const { setLove, setShop, love, shop } = ftion;
   return (
-<div className="card card-compact bg-base-100  shadow-xl">
-  <figure>
-    <img
-      src={image}
-      alt="Shoes" />
-  </figure>
-  <div className="p-2">
-    <h2 className="card-title">{title}</h2>
-    <p>{desc}</p>
-    <div className="card-actions justify-between">
-        <p className='text-primary font-bold'>{price}<span className="font-bold">৳</span></p>
-        <AiOutlineHeart className="text-gray text-2xl" />
+    <div className="card card-compact bg-base-100 cursor-pointer shadow-xl">
+      <figure>
+        <Link to={`/item/${id}`}>
+          <img className="  " src={image} alt="Shoes" />
+        </Link>
+      </figure>
+      <div className="p-2">
+        <h2 className="font-[500]">{title}</h2>
+        {/* <p>{desc}</p> */}
+        <div className="card-actions justify-between">
+          <p className="">
+            <span className="font-bold text-primary">{price}৳</span>
+          </p>
+          <div className="flex gap-2">
+            <FiShoppingCart
+              onClick={() => {
+                setShop([...shop, id]);
+              }}
+              className="text-gray text-2xl hover:text-primary duration-300 transition-all"
+            />
+            <AiOutlineHeart
+              onClick={() => setLove([...love, id])}
+              className="text-gray text-2xl hover:text-primary duration-300 transition-all"
+            />
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-  )
+  );
 }
 
-export default Card
+export default Card;
