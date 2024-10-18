@@ -4,7 +4,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 function Card({ data, ftion }) {
-  const { image, title, price, id } = data;
+  const { image, title, price, id ,oldPrice} = data;
   const { setLove, setShop, love, shop } = ftion;
   return (
     <div className="card card-compact bg-base-100 cursor-pointer shadow-xl">
@@ -18,6 +18,7 @@ function Card({ data, ftion }) {
         {/* <p>{desc}</p> */}
         <div className="card-actions justify-between">
           <p className="">
+            <span className="mr-3 text-gray"><s>{oldPrice}৳</s></span>
             <span className="font-bold text-primary">{price}৳</span>
           </p>
           <div className="flex gap-2">

@@ -4,7 +4,8 @@ import TopNavber from '../Components/Sheard/Navber/TopNavber'
 import WhatsappIcon from '../Components/PageIcon/WhatsappIcon'
 import Footer from '../Components/Sheard/Footer/Footer'
 import PremumKatan from '../Components/PremiumKatan/PremumKatan'
-// import Carousel from '../Components/Sheard/Carusol/Carusol'
+import Carusol from '../Components/Sheard/Carusol/Carusol'
+
 
 
 function Home({stateFunction}) {
@@ -15,7 +16,7 @@ function Home({stateFunction}) {
       <Navber data={{love,shop}}  />
       <WhatsappIcon />
 
-      {/* <Carousel /> */}
+      <Carusol />
       <PremumKatan ftion={{setLove,setShop,love,shop}} />
       <Footer />
     </div>

@@ -25,13 +25,13 @@ function Navbar({ data }) {
             Home
           </NavLink>
           <NavLink
-            to="/shop"
+            // to="/shop"
             className=" hover:text-text text-gray font-bold transition-all duration-300 "
           >
             Shop
           </NavLink>
           <NavLink
-            to="/contact"
+            // to="/contact"
             className=" hover:text-text text-gray font-bold transition-all duration-300 "
           >
             Contact

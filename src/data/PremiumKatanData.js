@@ -12,6 +12,7 @@ const premulKatan = [
     id: "123164",
     image: img1,
     price: "2,990",
+    oldPrice : "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -40,6 +41,7 @@ const premulKatan = [
     id: "12336133",
     image: img2,
     price: "2,990",
+    oldPrice : "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -68,6 +70,7 @@ const premulKatan = [
     id: "123451343",
     image: img3,
     price: "2,990",
+    oldPrice : "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -96,6 +99,7 @@ const premulKatan = [
     id: "1231343",
     image: img4,
     price: "2,990",
+    oldPrice : "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -124,6 +128,7 @@ const premulKatan = [
     id: "1231335",
     image: img5,
     price: "2,990",
+    oldPrice : "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -152,6 +157,7 @@ const premulKatan = [
     id: "1231336",
     image: img6,
     price: "2,990",
+    oldPrice : "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -180,6 +186,7 @@ const premulKatan = [
     id: "1231337",
     image: img7,
     price: "2,990",
+    oldPrice : "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -208,6 +215,7 @@ const premulKatan = [
     id: "1e23133",
     image: img8,
     price: "2,990",
+    oldPrice : "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [

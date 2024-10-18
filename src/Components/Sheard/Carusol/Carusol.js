@@ -1,93 +1,29 @@
-import React, { useCallback, useEffect, useState } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
 import Autoplay from 'embla-carousel-autoplay'
-import {
-  NextButton,
-  PrevButton,
-  usePrevNextButtons
-} from './EmblaCarouselArrowButtons'
+import React from 'react'
+import premulKatan from '../../../data/PremiumKatanData'
+import { Link } from 'react-router-dom'
 
-const Carousel = (props) => {
-  const { slides, options } = props
-  const [emblaRef, emblaApi] = useEmblaCarousel(options, [
-    Autoplay({ playOnInit: false, delay: 3000 })
-  ])
-  const [isPlaying, setIsPlaying] = useState(false)
+function Carusol() {
+  const [emblaRef] = useEmblaCarousel({ loop: false }, [Autoplay()])
 
-  const {
-    prevBtnDisabled,
-    nextBtnDisabled,
-    onPrevButtonClick,
-    onNextButtonClick
-  } = usePrevNextButtons(emblaApi)
-
-  const onButtonAutoplayClick = useCallback(
-    (callback) => {
-      const autoplay = emblaApi?.plugins()?.autoplay
-      if (!autoplay) return
-
-      const resetOrStop =
-        autoplay.options.stopOnInteraction === false
-          ? autoplay.reset
-          : autoplay.stop
-
-      resetOrStop()
-      callback()
-    },
-    [emblaApi]
-  )
-
-  const toggleAutoplay = useCallback(() => {
-    const autoplay = emblaApi?.plugins()?.autoplay
-    if (!autoplay) return
-
-    const playOrStop = autoplay.isPlaying() ? autoplay.stop : autoplay.play
-    playOrStop()
-  }, [emblaApi])
-
-  useEffect(() => {
-    const autoplay = emblaApi?.plugins()?.autoplay
-    if (!autoplay) return
-
-    setIsPlaying(autoplay.isPlaying())
-    emblaApi
-      .on('autoplay:play', () => setIsPlaying(true))
-      .on('autoplay:stop', () => setIsPlaying(false))
-      .on('reInit', () => setIsPlaying(autoplay.isPlaying()))
-  }, [emblaApi])
 
   return (
-    <div className="embla">
+    <div className="container m-auto px-5 py-5 md:py-10 embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
-          {slides.map((index) => (
+          {premulKatan.map((data,index) => (
             <div className="embla__slide" key={index}>
               <div className="embla__slide__number">
-                <span>{index + 1}</span>
+                <Link to={`/item/${data.id}`}>  <img className='w-[97%] md:w-[95%] md:h-[460px] h-[300px] rounded-xl m-auto' src={data.image} alt="" /></Link>
               </div>
             </div>
           ))}
         </div>
       </div>
 
-      <div className="embla__controls">
-        <div className="embla__buttons">
-          <PrevButton
-            onClick={() => onButtonAutoplayClick(onPrevButtonClick)}
-            disabled={prevBtnDisabled}
-          />
-          <NextButton
-            onClick={() => onButtonAutoplayClick(onNextButtonClick)}
-            disabled={nextBtnDisabled}
-          />
-        </div>
-
-        <button className="embla__play" onClick={toggleAutoplay} type="button">
-          {isPlaying ? 'Stop' : 'Start'}
-        </button>
-      </div>
     </div>
   )
 }
 
-export default Carousel
+export default Carusol

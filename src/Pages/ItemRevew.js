@@ -26,7 +26,11 @@ function ItemRevew({ stateFunction }) {
           <div className="grid md:grid-cols-2 grid-cols-1 py-10 gap-7">
             <div className="flex justify-center   ">
               {product && (
-                <img className="rounded-md  max-w-[600px] w-full m-auto" src={product.image} alt="" />
+                <img
+                  className="rounded-md  max-w-[600px] w-full m-auto"
+                  src={product.image}
+                  alt=""
+                />
               )}
             </div>
             <div className="">
@@ -34,18 +38,27 @@ function ItemRevew({ stateFunction }) {
                 <h3 className="font-bold text-2xl">{product.title}</h3>
               )}
 
-              {product && 
+              {product && (
                 <div className="flex gap-5 my-5">
                   <h3 className="font-bold">Price-</h3>
-                  <h3 className=" text-green-500  font-bold text-xl "> {product.price}৳</h3>
+                  <h3 className=" text-green-500  font-bold text-xl ">
+                    {" "}
+                    {product.price}৳
+                  </h3>
                 </div>
-              }
+              )}
 
-<a target="_blank" href="https://wa.me/01789282050" rel="noreferrer">
-         <button className="w-full p-2 font-bold text-bold rounded-lg hover:bg-gray transition-all duration-300 cursor-pointer bg-green-500 text-white my-6"> অর্ডার করতে ক্লিক করুন</button>
-        </a>
+              <a
+                target="_blank"
+                href="https://wa.me/01789282050"
+                rel="noreferrer"
+              >
+                <button className="w-full p-2 font-bold text-bold rounded-lg hover:bg-gray transition-all duration-300 cursor-pointer bg-green-500 text-white my-6">
+                  {" "}
+                  অর্ডার করতে ক্লিক করুন
+                </button>
+              </a>
 
-             
               {product && (
                 <ul className=" py-5 list-none">
                   {product.desc.descContent.map((item, index) => (
