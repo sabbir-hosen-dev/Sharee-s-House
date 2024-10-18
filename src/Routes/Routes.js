@@ -7,7 +7,7 @@ function AppRoutes() {
   const [shop,setShop] = useState([]);
   const [love,setLove] = useState([]);
 
-  console.log(love,shop)
+
 
   const state = {shop,setShop,love,setLove}
 
