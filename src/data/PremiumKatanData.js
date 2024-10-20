@@ -185,7 +185,7 @@ const premulKatan = [
   {
     id: "1231337",
     image: img7,
-    price: "2,990",
+    price: "2,390",
     oldPrice : "3,390",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
@@ -214,7 +214,7 @@ const premulKatan = [
   {
     id: "1e23133",
     image: img8,
-    price: "2,990",
+    price: "2,390",
     oldPrice : "2,390 ",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
