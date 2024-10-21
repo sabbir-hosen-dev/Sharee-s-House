@@ -1,18 +1,9 @@
-import img1 from "../assis/PremiumKatan/img1.jpg";
-import img2 from "../assis/PremiumKatan/img2.jpg";
-import img3 from "../assis/PremiumKatan/img3.jpg";
-import img4 from "../assis/PremiumKatan/img4.jpg";
-import img5 from "../assis/PremiumKatan/img5.jpg";
-import img6 from "../assis/PremiumKatan/img6.jpg";
-import img7 from "../assis/PremiumKatan/img7.jpg";
-import img8 from "../assis/PremiumKatan/img8.jpg";
-
 const premulKatan = [
   {
     id: "123164",
-    image: img1,
+    image: "https://i.ibb.co.com/xzCjZXj/img1.jpg",
     price: "2,390",
-    oldPrice : "3,490",
+    oldPrice: "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -39,9 +30,9 @@ const premulKatan = [
   },
   {
     id: "12336133",
-    image: img2,
+    image: "https://i.ibb.co.com/q7YdDc4/img6.jpg",
     price: "2,390",
-    oldPrice : "3,490",
+    oldPrice: "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -68,9 +59,9 @@ const premulKatan = [
   },
   {
     id: "123451343",
-    image: img3,
+    image: "https://i.ibb.co.com/GFwC6BP/img7.jpg",
     price: "2,390",
-    oldPrice : "3,490",
+    oldPrice: "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -97,9 +88,9 @@ const premulKatan = [
   },
   {
     id: "1231343",
-    image: img4,
+    image: "https://i.ibb.co.com/HDG9923/img8.jpg",
     price: "2,390",
-    oldPrice : "3,490",
+    oldPrice: "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -126,9 +117,9 @@ const premulKatan = [
   },
   {
     id: "1231335",
-    image: img5,
+    image: "https://i.ibb.co.com/yYsP2TQ/img2.jpg",
     price: "2,390",
-    oldPrice : "3,490",
+    oldPrice: "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -155,9 +146,9 @@ const premulKatan = [
   },
   {
     id: "1231336",
-    image: img6,
+    image: "https://i.ibb.co.com/wcXjP6j/img4.jpg",
     price: "2,390",
-    oldPrice : "3,490",
+    oldPrice: "3,490",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -184,9 +175,9 @@ const premulKatan = [
   },
   {
     id: "1231337",
-    image: img7,
+    image: "https://i.ibb.co.com/kSShchz/img3.jpg",
     price: "2,390",
-    oldPrice : "3,390",
+    oldPrice: "3,390",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
@@ -213,9 +204,9 @@ const premulKatan = [
   },
   {
     id: "1e23133",
-    image: img8,
+    image: "https://i.ibb.co.com/kmr6nnY/img5.jpg",
     price: "2,390",
-    oldPrice : "2,390 ",
+    oldPrice: "2,390 ",
     desc: {
       descTitle: " আমাদের এই কম্বো প্যাকেজে যা যা পাবেনঃ",
       descContent: [
