@@ -6,8 +6,8 @@ import logo from "../../../assis/Logo/logo.png";
 import { Link, NavLink } from "react-router-dom";
 
 function Navbar({ data }) {
-  return (
-    <nav className="bg-neutral-100">
+    return (
+    <nav className={`${data.fixed ? "bg-blur" : ""} bg-neutral-100`}>
       <div className="container px-5 mx-auto flex justify-between items-center py-3">
         <Link to="/">
           <div className="logo flex items-center gap-2">

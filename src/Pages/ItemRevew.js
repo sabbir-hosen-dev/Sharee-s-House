@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import TopNavber from "../Components/Sheard/Navber/TopNavber";
+
 // import WhatsappIcon from "../Components/PageIcon/WhatsappIcon";
 import Footer from "../Components/Sheard/Footer/Footer";
-import Navber from "../Components/Sheard/Navber/Navber";
 import data from "../data/PremiumKatanData";
+import Header from "../Components/Header/Header";
+
 
 function ItemRevew({ stateFunction }) {
   const { love, shop } = stateFunction;
@@ -18,8 +19,7 @@ function ItemRevew({ stateFunction }) {
 
   return (
     <div>
-      <TopNavber />
-      <Navber data={{ love, shop }} />
+      <Header data={{love, shop}} />
       {/* <WhatsappIcon /> */}
       {
         <div className="wrap mx-5">
