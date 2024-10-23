@@ -35,7 +35,7 @@ const premulKatan = [
       ],
       descSubTitel: "সব আইটেম বক্স খুলে চেক করে নিতে পারবেন।",
     },
-    title: "Arang Cotton Blowj Pice Running Premium Combo",
+    title: "Premium Combo",
   },
   {
     id: "12336133",
@@ -64,7 +64,7 @@ const premulKatan = [
       ],
       descSubTitel: "সব আইটেম বক্স খুলে চেক করে নিতে পারবেন।",
     },
-    title: "Arang Cotton Blowj Pice Running Premium Combo",
+    title: "Premium Combo",
   },
   {
     id: "123451343",
@@ -93,7 +93,7 @@ const premulKatan = [
       ],
       descSubTitel: "সব আইটেম বক্স খুলে চেক করে নিতে পারবেন।",
     },
-    title: "Arang Cotton Blowj Pice Running Premium Combo",
+    title: " Premium Combo",
   },
   {
     id: "1231343",
@@ -122,7 +122,7 @@ const premulKatan = [
       ],
       descSubTitel: "সব আইটেম বক্স খুলে চেক করে নিতে পারবেন।",
     },
-    title: "Arang Cotton Blowj Pice Running Premium Combo",
+    title: " Premium Combo",
   },
   {
     id: "1231335",
@@ -151,7 +151,7 @@ const premulKatan = [
       ],
       descSubTitel: "সব আইটেম বক্স খুলে চেক করে নিতে পারবেন।",
     },
-    title: "Arang Cotton Blowj Pice Running Premium Combo",
+    title: "Premium Combo",
   },
   {
     id: "1231336",
@@ -180,7 +180,7 @@ const premulKatan = [
       ],
       descSubTitel: "সব আইটেম বক্স খুলে চেক করে নিতে পারবেন।",
     },
-    title: "Arang Cotton Blowj Pice Running Premium Combo",
+    title: " Premium Combo",
   },
   {
     id: "1231337",
@@ -209,7 +209,7 @@ const premulKatan = [
       ],
       descSubTitel: "সব আইটেম বক্স খুলে চেক করে নিতে পারবেন।",
     },
-    title: "Arang Cotton Blowj Pice Running Premium Combo",
+    title: " Premium Combo",
   },
   {
     id: "1e23133",
@@ -238,7 +238,7 @@ const premulKatan = [
       ],
       descSubTitel: "সব আইটেম বক্স খুলে চেক করে নিতে পারবেন।",
     },
-    title: "Arang Cotton Blowj Pice Running Premium Combo",
+    title: " Premium Combo",
   },
 ];
 
