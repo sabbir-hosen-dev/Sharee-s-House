@@ -1,28 +1,21 @@
-
-module.exports = {
+/** @type {import('tailwindcss').Config} */
+import daisyui from "daisyui"
+export default {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       colors: {
         primary: "#7ED956",
-        gray: "#A8A9AD",
+        halkaBlack: "#A8A9AD",
         text:"#242424"
-      },
-      fontFamily: {
-        mulish: ["Mulish", "sons-serif"],
-        inter: ["Inter", "sans-serif"],
       },
     },
   },
   plugins: [
-    require('daisyui'),
+    daisyui,
   ],
-  // variants: {
-  //   extend: {
-  //     backgroundColor: ['light'], // Enable `light` variant for background color
-  //     textColor: ['light'], // Enable `light` variant for text color
-  //   },
-  // }
 }
+

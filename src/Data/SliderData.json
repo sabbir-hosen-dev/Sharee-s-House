@@ -1,0 +1,22 @@
+[
+  {
+    "id": "a1f5b3e8-1b1f-4c5a-8e5f-a2d9e2e2c9f7",
+    "category": "Saree",
+    "image": "https://github.com/sabbir-hosen-dev/Image-Store/blob/main/Sharee's%20House/Slider/slider1.png?raw=true"
+  },
+  {
+    "id": "b6c2d4f9-3e4c-49da-9b32-b1c8f6a9d2b3",
+    "category": "Kurti",
+    "image": "https://github.com/sabbir-hosen-dev/Image-Store/blob/main/Sharee's%20House/Slider/slider2.png?raw=true"
+  },
+  {
+    "id": "c3a1e6b7-7d8f-41f2-8d6e-c3f5a7b1e4c9",
+    "category": "Jewelry",
+    "image": "https://github.com/sabbir-hosen-dev/Image-Store/blob/main/Sharee's%20House/Slider/slider3.png?raw=true"
+  },
+  {
+    "id": "d9e5a2b1-2f3c-4d6e-9b7a-e1a3f9c5d4e7",
+    "category": "Footwear",
+    "image": "https://github.com/sabbir-hosen-dev/Image-Store/blob/main/Sharee's%20House/Slider/slider4.png?raw=true"
+  }
+]
