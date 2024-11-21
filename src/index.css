@@ -4,6 +4,10 @@
 @tailwind utilities;
 
 
+  section{
+    padding:40px;
+  }
+
   .navLink {
     @apply hover:text-text text-halkaBlack font-bold transition-all duration-300;
   }
