@@ -1,0 +1,36 @@
+[
+  {
+    "id": "HS001",
+    "title": "Half Silk Saree Only",
+    "category": "single-saree",
+    "price": 1390.0,
+    "offerPrice": 890.0,
+    "quantity": 150,
+    "stock": "In Stock",
+    "description": {
+      "descriptionTitle": "",
+      "descContent": [
+        "হাফ সিল্ক শাড়ি",
+        "ইউনিক ডিজাইনের টাংগাইল শাড়ি",
+        "নিজেদের তাঁতে বুনন করা শাড়ি"
+      ]
+    },
+    "subtitle": "",
+    "notis": {
+      "note": "",
+      "alert": ""
+    },
+    "rating": {
+      "average": 4.5,
+      "reviews": 1283
+    },
+    "image": {
+      "main": "https://example.com/images/half-silk-saree-main.jpg",
+      "subimage": [
+        "https://example.com/images/half-silk-saree-1.jpg",
+        "https://example.com/images/half-silk-saree-2.jpg",
+        "https://example.com/images/half-silk-saree-3.jpg"
+      ]
+    }
+  }
+]
